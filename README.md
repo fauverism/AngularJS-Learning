@@ -4,6 +4,10 @@ forked from [jmcunningham/AngularJS-Learning](https://github.com/jmcunningham/An
 
 This is updated with notes by me for me. :)
 
+_Currently reading * [AngularJS and scope.$apply] (http://jimhoskins.com/2012/12/17/angularjs-and-apply.html)_
+
+==================
+
 A bunch of links to blog posts, articles, videos, etc for learning AngularJS. This list is in its early stages. Feel free to submit a pull request if you have some links/resources to add. Also, I try to verify that the articles below have some real content (i.e. aren't 2 paragraph blog posts with little information) to ensure I'm not listing "fluff" pieces. If you have an idea for a better way to organize these links, please let me know. As I find similar posts in the "General Topics" section, I will break them out into their own categories.
 
 NOTE: LINKS PRECEDED WITH A ** DISCUSS NEW STUFF IN ANGULAR 1.2. I will also list them below in their own heading for now, since many of you will likely want to quickly see what is new in Angular 1.2. Once the dust settles, or the 1.2 section gets too big, I will remove it. But for now, the Angular 1.2 links can be found in two places.
@@ -125,6 +129,7 @@ NOTE: LINKS PRECEDED WITH A ** DISCUSS NEW STUFF IN ANGULAR 1.2. I will also lis
 
 ## Scopes & Compile
 * [AngularJS and scope.$apply] (http://jimhoskins.com/2012/12/17/angularjs-and-apply.html)
+  -  
 * [What are the nuances of scope prototypal / prototypical inheritance in AngularJS?] (http://stackoverflow.com/questions/14049480/what-are-the-nuances-of-scope-prototypal-prototypical-inheritance-in-angularjs)
 * [angularjs.org watch, on pub sub, and you.] (http://eburley.github.io/2013/01/31/angularjs-watch-pub-sub-best-practices.html)
 * [Use Ng-bind in AngularJS] (http://www.befundoo.com/blog/use-ng-bind-in-angularjs/)
