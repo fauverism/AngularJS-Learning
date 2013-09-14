@@ -2,9 +2,27 @@ AngularJS-Learning
 ==================
 forked from [jmcunningham/AngularJS-Learning](https://github.com/jmcunningham/AngularJS-Learning)
 
-This is updated with notes by me for me. :)
-
 _Currently reading * [AngularJS and scope.$apply] (http://jimhoskins.com/2012/12/17/angularjs-and-apply.html)_
+
+==================
+
+NOTES BY BY4ME
+
+## AngularJS Wiki
+[Understanding-Scopes] (https://github.com/angular/angular.js/wiki/Understanding-Scopes)
+- ng-repeat, ng-switch, ng-view and ng-include all create new child scopes
+- avoid with always have a '.' in your ng-models 
+- reviews JavaScript Prototypal Inheritance
+- If we read childScope.propertyX, and childScope has propertyX, then the prototype chain is not consulted.
+- If we set childScope.propertyX, the prototype chain is not consulted.
+Angular Scope Inheritance
+- The following create new scopes, and inherit prototypically: ng-repeat, ng-include, ng-switch, ng-view, ng-controller, directive with scope: true, directive with transclude: true.
+- The following creates a new scope which does not inherit prototypically: directive with scope: { ... }. This creates an "isolate" scope instead.
+- For scenarios where form elements are not involved, another solution is to define a function on the parent scope to modify the primitive. Then ensure the child always calls this function, which will be available to the child scope due to prototypal inheritance. E.g.,
+- ng-switch scope inheritance works just like ng-include. 
+- *ng-repeat*, this is pretty in depth and you should reread the section on the page
+- Nesting controllers using ng-controller results in normal prototypal inheritance, just like ng-include and ng-switch, so the same techniques apply. However, "it is considered bad form for two controllers to share information via $scope inheritance" -- http://onehungrymind.com/angularjs-sticky-notes-pt-1-architecture/ A service should be used to share data between controllers instead.
+- directives have their own $scope by default, watch out for clobbering
 
 ==================
 
