@@ -82,7 +82,7 @@ NOTE: LINKS PRECEDED WITH A ** DISCUSS NEW STUFF IN ANGULAR 1.2. I will also lis
 * [AngularJS Philly ETE Slides] (http://onehungrymind.com/angularjs-philly-ete-slides/)
 * [Random Tricks When Using AngularJS] (http://blog.tomaka17.com/2012/12/random-tricks-when-using-angularjs/)
 * [What stumped me about AngularJS] (http://www.peterbe.com/plog/what-stumped-me-about-angularjs)
-* -[5 reasons to use AngularJS in the corporate app world] (http://oscarvillarreal.com/2013/05/07/5-reasons-to-use-angularjs-in-the-corporate-app-world/)-
+* <strike>[5 reasons to use AngularJS in the corporate app world] (http://oscarvillarreal.com/2013/05/07/5-reasons-to-use-angularjs-in-the-corporate-app-world/)</strike>
 * [Lazy Loading In AngularJS] (http://ify.io/lazy-loading-in-angularjs/)
 * [More AngularJS Magic to Supercharge your Webapp] (http://www.yearofmoo.com/2012/10/more-angularjs-magic-to-supercharge-your-webapp.html)
 * [HashKeyCopier - An AngularJS Utility Class For Merging Cached And Live Data] (http://www.bennadel.com/blog/2472-HashKeyCopier-An-AngularJS-Utility-Class-For-Merging-Cached-And-Live-Data.htm)
