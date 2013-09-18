@@ -23,9 +23,9 @@ Angular Scope Inheritance
 - *ng-repeat*, this is pretty in depth and you should reread the section on the page
 - Nesting controllers using ng-controller results in normal prototypal inheritance, just like ng-include and ng-switch, so the same techniques apply. However, "it is considered bad form for two controllers to share information via $scope inheritance" -- http://onehungrymind.com/angularjs-sticky-notes-pt-1-architecture/ A service should be used to share data between controllers instead.
 - directives have their own $scope by default, watch out for clobbering
-- 
+
 ##FROM...
-* Angular-Design-Patterns-Best-Practices(http://trochette.github.io/Angular-Design-Patterns-Best-Practices/)
+* [Angular-Design-Patterns-Best-Practices] (http://trochette.github.io/Angular-Design-Patterns-Best-Practices/)
 - If you end writing $(element) somewhere in your controller then its a indication that you need a directive.
 
 ==================
