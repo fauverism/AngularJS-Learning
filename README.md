@@ -22,7 +22,14 @@ Angular Scope Inheritance
 - Nesting controllers using ng-controller results in normal prototypal inheritance, just like ng-include and ng-switch, so the same techniques apply. However, "it is considered bad form for two controllers to share information via $scope inheritance" -- http://onehungrymind.com/angularjs-sticky-notes-pt-1-architecture/ A service should be used to share data between controllers instead.
 - directives have their own $scope by default, watch out for clobbering
 
+##FROM...
+[Angular-Design-Patterns-Best-Practices] (http://trochette.github.io/Angular-Design-Patterns-Best-Practices/)
+- If you end writing $(element) somewhere in your controller then its a indication that you need a directive.
+
 ==================
+==================
+
+_from original_
 
 A bunch of links to blog posts, articles, videos, etc for learning AngularJS. This list is in its early stages. Feel free to submit a pull request if you have some links/resources to add. Also, I try to verify that the articles below have some real content (i.e. aren't 2 paragraph blog posts with little information) to ensure I'm not listing "fluff" pieces. If you have an idea for a better way to organize these links, please let me know. As I find similar posts in the "General Topics" section, I will break them out into their own categories.
 
@@ -80,7 +87,6 @@ NOTE: LINKS PRECEDED WITH A ** DISCUSS NEW STUFF IN ANGULAR 1.2. I will also lis
 * [AngularJS Philly ETE Slides] (http://onehungrymind.com/angularjs-philly-ete-slides/)
 * [Random Tricks When Using AngularJS] (http://blog.tomaka17.com/2012/12/random-tricks-when-using-angularjs/)
 * [What stumped me about AngularJS] (http://www.peterbe.com/plog/what-stumped-me-about-angularjs)
-* [5 reasons to use AngularJS in the corporate app world] (http://oscarvillarreal.com/2013/05/07/5-reasons-to-use-angularjs-in-the-corporate-app-world/)
 * [Lazy Loading In AngularJS] (http://ify.io/lazy-loading-in-angularjs/)
 * [More AngularJS Magic to Supercharge your Webapp] (http://www.yearofmoo.com/2012/10/more-angularjs-magic-to-supercharge-your-webapp.html)
 * [HashKeyCopier - An AngularJS Utility Class For Merging Cached And Live Data] (http://www.bennadel.com/blog/2472-HashKeyCopier-An-AngularJS-Utility-Class-For-Merging-Cached-And-Live-Data.htm)
