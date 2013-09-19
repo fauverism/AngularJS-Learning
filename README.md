@@ -2,8 +2,6 @@ AngularJS-Learning
 ==================
 forked from [jmcunningham/AngularJS-Learning](https://github.com/jmcunningham/AngularJS-Learning)
 
-_Currently reading * [AngularJS and scope.$apply] (http://jimhoskins.com/2012/12/17/angularjs-and-apply.html)_
-
 ==================
 
 NOTES BY BY4ME
