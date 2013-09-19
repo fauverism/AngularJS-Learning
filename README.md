@@ -6,7 +6,7 @@ forked from [jmcunningham/AngularJS-Learning](https://github.com/jmcunningham/An
 
 NOTES BY BY4ME
 
-## AngularJS Wiki
+## AngularJS WikiCode Organization
 [Understanding-Scopes] (https://github.com/angular/angular.js/wiki/Understanding-Scopes)
 - ng-repeat, ng-switch, ng-view and ng-include all create new child scopes
 - avoid with always have a '.' in your ng-models 
@@ -263,8 +263,18 @@ NOTE: LINKS PRECEDED WITH A ** DISCUSS NEW STUFF IN ANGULAR 1.2. I will also lis
 * [Using ngController With ngRepeat In AngularJS] (http://www.bennadel.com/blog/2450-Using-ngController-With-ngRepeat-In-AngularJS.htm)
 * [Rendering DOM Elements With ngRepeat In AngularJS] (http://www.bennadel.com/blog/2443-Rendering-DOM-Elements-With-ngRepeat-In-AngularJS.htm)
 
-## Code Organization
-* [Building Huuuuuge Apps with AngularJS] (http://briantford.com/blog/huuuuuge-angular-apps.html)
+## Code Organization 
+* *[Building Huuuuuge Apps with AngularJS] (http://briantford.com/blog/huuuuuge-angular-apps.html)*
+-- The best advice about huge apps is not to make them. Write small, focused, modular parts, and progressively combine them into bigger things to make your app.
+-- Define and configure all modules in app.js:
+<code>angular.module('yourAppName', ['yourAppDep']);</code>
+<code>angular.module('yourAppDep');</code>
+-- Define controllers, services, etc. on modules like this:
+<code>angular.module('yourAppDep').controller('MyCtrl', function () {
+  // ...
+});</code>
+
+
 * [Code Organization in Large AngularJS and JavaScript Applications] (http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
 * [Proposed Angular’s WebPage structure] (http://www.blogeek.com.ar/2013/05/18/proposed-angulars-project-structure/)
 * [The right way of coding AngularJS: How to organize a regular WebApp. Basic Example] (http://www.blogeek.com.ar/2013/03/23/the-right-way-of-coding-angularjs-how-to-organize-a-regular-webapp/)
