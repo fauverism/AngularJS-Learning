@@ -263,16 +263,17 @@ NOTE: LINKS PRECEDED WITH A ** DISCUSS NEW STUFF IN ANGULAR 1.2. I will also lis
 * [Using ngController With ngRepeat In AngularJS] (http://www.bennadel.com/blog/2450-Using-ngController-With-ngRepeat-In-AngularJS.htm)
 * [Rendering DOM Elements With ngRepeat In AngularJS] (http://www.bennadel.com/blog/2443-Rendering-DOM-Elements-With-ngRepeat-In-AngularJS.htm)
 
+
 ## Code Organization 
 * *[Building Huuuuuge Apps with AngularJS] (http://briantford.com/blog/huuuuuge-angular-apps.html)*
--- The best advice about huge apps is not to make them. Write small, focused, modular parts, and progressively combine them into bigger things to make your app.
--- Define and configure all modules in app.js:
-<code>angular.module('yourAppName', ['yourAppDep']);</code>
-<code>angular.module('yourAppDep');</code>
--- Define controllers, services, etc. on modules like this:
-<code>angular.module('yourAppDep').controller('MyCtrl', function () {
+- The best advice about huge apps is not to make them. Write small, focused, modular parts, and progressively combine them into bigger things to make your app.
+- Define and configure all modules in app.js:
+- <code>angular.module('yourAppName', ['yourAppDep']);</code>
+- <code>angular.module('yourAppDep');</code>
+- Define controllers, services, etc. on modules like this:
+- <code>angular.module('yourAppDep').controller('MyCtrl', function () {
   // ...
-});</code>
+- });</code>
 
 
 * [Code Organization in Large AngularJS and JavaScript Applications] (http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript)
@@ -280,7 +281,8 @@ NOTE: LINKS PRECEDED WITH A ** DISCUSS NEW STUFF IN ANGULAR 1.2. I will also lis
 * [The right way of coding AngularJS: How to organize a regular WebApp. Basic Example] (http://www.blogeek.com.ar/2013/03/23/the-right-way-of-coding-angularjs-how-to-organize-a-regular-webapp/)
 * [AngularJS Modules for Great Justice] (http://codingsmackdown.tv/blog/2013/04/19/angularjs-modules-for-great-justice/)
 * [ngDefine: AngularJS & RequireJS] (https://github.com/Nikku/requirejs-angular-define)
-* [Modular AngularJS App Design] (http://clintberry.com/2013/modular-angularjs-application-design/)
+* *[Modular AngularJS App Design] (http://clintberry.com/2013/modular-angularjs-application-design/)*
+- add a modules directory within the app directory. Each module then has its own sub-directory and a file for directives, controllers, filters and services and a directory for views.
 
 ## Testing
 * [Full-Spectrum Testing with AngularJS and Testacular] (http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-testacular.html)
